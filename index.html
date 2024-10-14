@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="image"></div>
+</body>
+</html>
+<script>
+    let bodyTag = document.body
+    let divTag = document.getElementById('image')
+    divTag.style.height = "100vh"
+    divTag.style.backgroundSize = "cover"
+    divTag.style.backgroundRepeat = "norepeat"
+    divTag.style.backgroundImage =  "url(developers_hero_img.png)"
+    divTag.style.width = "100%"
+</script>
